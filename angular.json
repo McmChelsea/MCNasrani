@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "someApp": {
+    "MCNasrani": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "someApp:build:production"
+              "buildTarget": "MCNasrani:build:production"
             },
             "development": {
-              "buildTarget": "someApp:build:development"
+              "buildTarget": "MCNasrani:build:development"
             }
           },
           "defaultConfiguration": "development"
